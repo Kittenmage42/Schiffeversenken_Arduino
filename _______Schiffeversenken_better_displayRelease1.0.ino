@@ -394,7 +394,9 @@ void drawX(int x, int y, uint16_t color) {
 }
 
 void WINFUNC() {
-  delay(1000);
+  debug = true;
+  renderBF();
+  delay(8000);
   tft.fillScreen(ST77XX_BLACK);
   tft.setCursor(7, 50);
   tft.setTextColor(ST77XX_YELLOW);
@@ -419,7 +421,9 @@ void WINFUNC() {
 }
 
 void LOSEFUNC() {
-  delay(1000);
+  debug = true;
+  renderBF();
+  delay(8000);
   tft.fillScreen(ST77XX_BLACK);
   tft.setCursor(7, 50);
   tft.setTextColor(ST77XX_RED);
