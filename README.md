@@ -14,3 +14,16 @@ Alle Dateien von meinem Schulprojekt "Schiffeversenken".
 
 
 ## Aufbau / Verkabelung
+
+### TFT Display zu Arduino
+
+| TFT Display | Arduino |
+|----------|-----------|
+| GND | GND |
+| VCC | 5V |
+| LED | 3.3V oder 5V |
+| SCK | 13 |
+| SDA (MOSI) | 11 |
+| AO (DC) | 8 |
+| RESET | 9 |
+| CS | 10 |
